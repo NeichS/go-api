@@ -6,7 +6,7 @@ import (
 	"gorm.io/gorm"
 )
 
-var databaseString = "host=localhost user=neich password=12345 dbname=test-go-crud port=8001"
+var databaseString = "host=localhost user=neich password=12345 dbname=test-go-crud port=5432"
 
 var DB *gorm.DB  
 

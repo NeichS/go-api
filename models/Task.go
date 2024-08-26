@@ -10,5 +10,4 @@ type Task struct {
 	Description string
 	Done bool `gorm:"default:false"`
 	UserID uint
-
 }

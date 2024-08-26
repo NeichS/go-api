@@ -7,8 +7,8 @@ import (
 type User struct {
 	gorm.Model
 
-	nombre string `gorm:"not null"`
-	apellido string `gorm:"not null"`
-	email string `gorm:"not null;unique_index"`
-	Tareas []Task
+	FirstName string `gorm:"not null"`
+	LastName string `gorm:"not null"`
+	Email string `gorm:"not null;unique_index"`
+	Tasks []Task
 }
